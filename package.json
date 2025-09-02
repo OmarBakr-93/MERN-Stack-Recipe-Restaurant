@@ -1,0 +1,28 @@
+{
+  "name": "mern-stack-recipe-restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmarBakr-93/MERN-Stack-Recipe-Restaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/OmarBakr-93/MERN-Stack-Recipe-Restaurant/issues"
+  },
+  "homepage": "https://github.com/OmarBakr-93/MERN-Stack-Recipe-Restaurant#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0",
+    "nodemon": "^3.1.10"
+  }
+}
