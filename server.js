@@ -13,9 +13,12 @@ const connectionDB = require("./config/connectDB");
 const PORT = process.env.PORT || 3000;
 connectionDB();
 
-app.get("/", (req, res) => {
-  res.send("<h1>Hello World!</h1>");
-});
+// Routes
+const recipeRoutes = require("./routes/recipe");
+app.use("/recipes", recipeRoutes);
+
+const userRoutes = require("./routes/usersRoute");
+app.use("/users", userRoutes);
 
 
 
